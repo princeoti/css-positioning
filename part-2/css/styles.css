@@ -16,14 +16,50 @@ body {
 }
 
 img {
-  max-width: 100%;
-}
-
-figure {
-  margin: 0;
+  width: 200px;
+  /*overflow: hidden;*/
 }
 
 .film {
   width: 50%;
   margin: 40px auto;
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+  float: left;
+}
+.film-poster{
+  position: relative;
+  padding-top: 28px;
+  padding-right: 15px;
+}
+
+.action-watch-later{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.fa-clock-o{
+  color: red;
+  margin-right:
+}
+
+.fa {
+color: red;
+padding-top: 30px;
+padding-right: 20px;
+}
+
+
+.film-description {
+  padding-bottom: 43px;
+  height: 200px;
+
+}
+.action-like {
+  text-align: right;
 }
